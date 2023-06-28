@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-km9gfgj@v2#g)g333)a0)f+6tyrgl4-t8p(2q3xbdw+j4^jyuv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', '.vercel.app', '.now.sh', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh', 'localhost']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'lab06',
         'USER': 'postgres',
         'PASSWORD': '0804',
-        'HOST': 'localhost'
+        'HOST': 'localhost',
     }
 }
 
